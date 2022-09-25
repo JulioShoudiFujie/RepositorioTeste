@@ -16,11 +16,11 @@ public class Empregado{
 
     public double calculaSalario(){
         if (tipo == 1)
-        return salario;
+            return salario;
         else if (tipo == 2)
-        return salario + salario * comissao;
+            return salario + salario * comissao;
         else if (tipo == 3)
-        return salario + bonus;
+            return salario + bonus;
         else
             return 0;
     }
